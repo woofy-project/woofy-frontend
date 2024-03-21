@@ -1,12 +1,18 @@
 import React from "react";
-import Logo from "../navbar/Logo";
+import NavBar from "../navbar/NavBar";
+import BestContents from "./BestContents";
+import MiddleContents from "./MiddleContents";
+import Footer from "./Footer";
+import Banner from "./Banner";
 
 const MainContents = () => {
   return (
     <div>
-      <Logo />
-      <h1>Home</h1>
-      <p>이곳은 Home 입니다.</p>
+      <NavBar />
+      <Banner />
+      <BestContents />
+      <MiddleContents />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #d29f9f;
+    text-align: center;
+}
+
+.notice {
+    margin-left: 20px;
+}
+  
+.notice p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}

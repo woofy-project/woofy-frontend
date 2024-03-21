@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    height: 200px;
+}
+  
+.navbar-center {
+    text-align: center;
+}
+
+.login-button,
+.write-button {
+    padding: 0.5rem 1rem;
+    background-color: #838383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+}
+
+.my-page-button {
+    padding: 0.5rem 1rem;
+    background-color: #838383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+}
+  
+.logo {
+    max-width: 250px; /*로고 가로 넓이*/
+}
